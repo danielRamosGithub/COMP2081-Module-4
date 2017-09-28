@@ -1,0 +1,51 @@
+body {
+	font: 1em "Trebuchet MS", verdana, arial, sans-serif;
+	font-size: 100%;
+	background: #B3B3B3;
+}
+h2 {
+}
+ul.drawers {
+	width: 250px;
+	background: #fff;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li a {
+	text-decoration: none;
+	color: #666;
+	display: block;
+	padding: 0.1em;
+}
+li a:link {
+	color: #666;
+}
+li a:visited {
+	background: #FFF;
+	color: #666;
+}
+li a:focus {
+	background: #E6E6E6;
+}
+li a:hover {
+	background: #E6E6E6;
+}
+li a:active {
+	color: #800000;
+}
+ul.drawers h2 {
+	margin: 0;
+	padding: 0.25em;
+	background-color: #e5e5e5;
+	cursor: pointer;
+}
+
+ul.drawers h2.open {
+	background-color: #4E64A5;
+}
+
